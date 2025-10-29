@@ -1,0 +1,27 @@
+# Code Owners
+# These owners will be the default owners for everything in the repo
+* @davidjbl
+
+# Frontend
+/projects/web/src/components/ @davidjbl
+/projects/web/src/app/ @davidjbl
+
+# Backend
+/projects/web/src/server/ @davidjbl
+/projects/web/src/lib/ @davidjbl
+
+# Database
+/projects/web/prisma/ @davidjbl
+
+# Documentation
+/docs/ @davidjbl
+/guidelines/ @davidjbl
+*.md @davidjbl
+
+# CI/CD
+/.github/ @davidjbl
+
+# Configuration
+*.json @davidjbl
+*.yaml @davidjbl
+*.yml @davidjbl

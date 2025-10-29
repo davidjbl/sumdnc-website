@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "prisma.prisma",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "ms-vscode.vscode-typescript-next",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.path-intellisense",
+    "formulahendry.auto-rename-tag",
+    "ms-playwright.playwright"
+  ]
+}

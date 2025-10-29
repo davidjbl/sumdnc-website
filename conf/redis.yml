@@ -1,0 +1,22 @@
+# Redis Configuration
+
+development:
+  host: localhost
+  port: 6379
+  db: 0
+  password: null
+  max_connections: 10
+
+test:
+  host: localhost
+  port: 6379
+  db: 1
+  password: null
+  max_connections: 5
+
+production:
+  url: ${REDIS_URL}
+  token: ${REDIS_TOKEN}
+  max_connections: 20
+  tls:
+    enabled: true

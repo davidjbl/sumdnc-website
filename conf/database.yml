@@ -1,0 +1,26 @@
+# Database Configuration
+
+development:
+  adapter: postgresql
+  database: sumdnc_dev
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  pool: 5
+
+test:
+  adapter: postgresql
+  database: sumdnc_test
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  pool: 5
+
+production:
+  adapter: postgresql
+  url: ${DATABASE_URL}
+  pool: 10
+  ssl:
+    rejectUnauthorized: false
